@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <title>Pop and Join Functions in JS</title>
+    </head>
+
+    <body>
+        <h1 id="join"></h1>
+        <h1 id ="pop1"></h1>
+        <h1 id="pop2"></h1>
+
+        <script>
+            var names = [
+                "elizabeth", 
+                "bob", 
+                "john", 
+                "liam"
+            ]
+
+            document.getElementById("join").innerHTML = names.join()
+            names.pop()
+            document.getElementById("pop1").innerHTML = names
+            names.pop()
+            document.getElementById("pop2").innerHTML = names
+
+        </script>
+    </body>
+
+</html>
