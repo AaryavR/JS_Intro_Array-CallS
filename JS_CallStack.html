@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Call Stack in JS</title>
+
+    </head>
+    <body>
+        <h1 id="id">...</h1>
+
+        <script>
+            function add(a, b) {
+                return a+b
+            }
+
+            function av() {
+                return add(12,4)/2
+            }
+
+            let result = av()
+
+            document.getElementById("id").innerHTML= result
+        </script>
+    </body>
+</html>
