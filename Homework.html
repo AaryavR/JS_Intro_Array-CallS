@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Coding Homework</title>
+    </head>
+
+    <body>
+        <h1 id="join">...</h1>
+        <h1 id="pop">...</h1>
+        <h1 id="calls">...</h1>
+        <h1 id="int">...</h1>
+
+        <script>
+            var fruits = [
+                "apple",
+                "banana", 
+                "pear", 
+                "dragon fruit"
+            ];
+
+            document.getElementById("int").innerHTML = fruits[0];
+            document.getElementById("join").innerHTML = fruits.join();
+            document.getElementById("pop").innerHTML = fruits.pop();
+
+            function add(a,b) {
+                return a+b
+            }
+
+            function av() {
+                return add(12,4)/2
+            }
+
+            let result = av()
+
+            document.getElementById("calls").innerHTML = result
+
+        </script>
+
+        
+    </body>
+
+
+</html>
